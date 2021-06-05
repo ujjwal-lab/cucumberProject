@@ -1,0 +1,108 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-05T06:35:51.414Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1941249627,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeSetUp.runSetup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "load website in chrome browser",
+        "description": "",
+        "id": "load-ecommerce-website;load-website-in-chrome-browser;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 196053959,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterStep.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6760521806,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User loads website \"http://automationpractice.com/index.php\" in browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/index.php\"",
+                  "offset": 19
+                }
+              ],
+              "location": "testCase1Step.user_loads_website_in_browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202942380,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User searche for product \"t-shirt\" in search textarea",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"t-shirt\"",
+                  "offset": 25
+                }
+              ],
+              "location": "testCase1Step.user_searche_for_product_in_search_textarea(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24509,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify search page loads",
+            "match": {
+              "location": "testCase1Step.verify_search_page_loads()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tagone"
+          }
+        ]
+      }
+    ],
+    "name": "Load ecommerce website",
+    "description": "",
+    "id": "load-ecommerce-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/testcase1.feature",
+    "tags": [
+      {
+        "name": "@tagone",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

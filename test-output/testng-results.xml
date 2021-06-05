@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9345" started-at="2021-06-05T06:35:51Z" finished-at="2021-06-05T06:36:00Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunnerTest1@ff5b51f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="cucumber test" duration-ms="9345" started-at="2021-06-05T06:35:51Z" finished-at="2021-06-05T06:36:00Z">
+      <class name="runner.RunnerTest1">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RunnerTest1@ff5b51f]" name="setUpClass" is-config="true" duration-ms="74" started-at="2021-06-05T16:35:51Z" finished-at="2021-06-05T16:35:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunnerTest1@ff5b51f]" name="runScenario" duration-ms="9214" started-at="2021-06-05T16:35:51Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-05T16:36:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["load website in chrome browser"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Load ecommerce website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunnerTest1@ff5b51f]" name="tearDownClass" is-config="true" duration-ms="27" started-at="2021-06-05T16:36:00Z" finished-at="2021-06-05T16:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunnerTest1 -->
+    </test> <!-- cucumber test -->
+  </suite> <!-- Suite -->
+</testng-results>

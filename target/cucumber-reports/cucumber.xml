@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="10.50781">
+<testcase classname="Load ecommerce website" name="load website in chrome browser" time="10.50781">
+<system-out><![CDATA[Given User loads website "http://automationpractice.com/index.php" in browser.passed
+When User searche for product "t-shirt" in search textarea..................passed
+Then verify search page loads...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
