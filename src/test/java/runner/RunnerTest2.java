@@ -12,7 +12,7 @@ import io.cucumber.testng.CucumberOptions;
  */
 
 @CucumberOptions(features = { "src/test/resources/FeatureFiles" }, glue = { "steps" }, tags = {
-		"@tagtwo" }, monochrome = true)
+		"@tag2" }, monochrome = true)
 public class RunnerTest2 extends AbstractTestNGCucumberTests {
 
 }

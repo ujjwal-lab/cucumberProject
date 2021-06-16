@@ -33,7 +33,7 @@ public class BaseClass {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 
-		wait=new WebDriverWait(driver, TIMEOUT);
+		wait = new WebDriverWait(driver, TIMEOUT);
 		driver.manage().timeouts().implicitlyWait(TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		String window = driver.getWindowHandle();
@@ -61,9 +61,8 @@ public class BaseClass {
 	}
 
 	public static void baseClassSetup() {
-		if (baseClass == null) {
-			baseClass = new BaseClass();
-		}
+
+		baseClass = new BaseClass();
 	}
 
 }

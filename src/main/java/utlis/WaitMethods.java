@@ -29,4 +29,9 @@ public class WaitMethods {
 
 		BaseClass.wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
 	}
+	
+	public static void waitForElementsclickable(By locator) {
+
+		BaseClass.wait.until(ExpectedConditions.elementToBeClickable(locator));
+	}
 }

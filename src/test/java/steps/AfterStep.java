@@ -14,6 +14,7 @@ public class AfterStep {
 
 	@After
 	public void teardown() {
+		System.out.println("Running after step");
 		BaseClass.tearDown();
 	}
 }

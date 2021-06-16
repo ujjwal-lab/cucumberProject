@@ -5,6 +5,7 @@ package utlis;
 
 import org.openqa.selenium.WebDriver;
 
+import PageLocator.CarsalesHomepage;
 import PageLocator.Homapge;
 import PageLocator.ProductPopUpPage;
 import PageLocator.SearchResultPage;
@@ -20,6 +21,7 @@ public class ScreenSingleTonClass {
 	Homapge homepage;
 	ProductPopUpPage productpop;
 	SearchResultPage resultPage;
+	CarsalesHomepage carsalesHomepage;
 
 	public ScreenSingleTonClass(WebDriver driver) {
 		// TODO Auto-generated constructor stub
@@ -51,6 +53,15 @@ public class ScreenSingleTonClass {
 		if (resultPage == null)
 			return new SearchResultPage(driver);
 		return resultPage;
+	}
+
+	/**
+	 * @return the carsalesHomepage
+	 */
+	public CarsalesHomepage getCarsalesHomepage() {
+		if (carsalesHomepage == null)
+			return new CarsalesHomepage(driver);
+		return carsalesHomepage;
 	}
 
 }
