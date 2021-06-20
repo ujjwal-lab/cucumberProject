@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
  *
  */
 @CucumberOptions(features = { "src/test/resources/FeatureFiles" }, glue = { "steps" }, tags = {
-		"@tagone" }, monochrome = true, plugin = { "html:target/cucumber-html-report",
+		"@search" }, monochrome = true, plugin = { "html:target/cucumber-html-report",
 				"json:target/cucumber-reports/cucumber.json" })
 public class RunnerTest1 extends AbstractTestNGCucumberTests {
 
