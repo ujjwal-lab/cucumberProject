@@ -1,2 +1,2 @@
-# cucumberProject
-Sample Cucumber Project for UI automation
+# Search Automation Using Cucumber and BDD
+
